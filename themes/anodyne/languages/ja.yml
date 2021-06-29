@@ -1,0 +1,18 @@
+prev: 前の記事
+next: 次の記事
+archive_a: アーカイブ
+archive_b: "アーカイブ: %s"
+recent_posts: "最近の投稿"
+categories: "カテゴリ"
+default_post_title: "Untitled"
+tags: "タグ"
+
+default
+prev: Previous
+next: Next
+archive_a: Archives
+archive_b: "Archives: %s"
+recent_posts: "Recent Posts"
+categories: "Categories"
+default_post_title: "Untitled"
+tags: "Tags"
