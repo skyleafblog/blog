@@ -7,12 +7,12 @@ categories: "カテゴリ"
 default_post_title: "Untitled"
 tags: "タグ"
 
-default
-prev: Previous
-next: Next
-archive_a: Archives
-archive_b: "Archives: %s"
-recent_posts: "Recent Posts"
-categories: "Categories"
-default_post_title: "Untitled"
-tags: "Tags"
+default:
+	prev: Previous
+	next: Next
+	archive_a: Archives
+	archive_b: "Archives: %s"
+	recent_posts: "Recent Posts"
+	categories: "Categories"
+	default_post_title: "Untitled"
+	tags: "Tags"
