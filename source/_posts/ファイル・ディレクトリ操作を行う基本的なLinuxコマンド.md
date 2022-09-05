@@ -92,8 +92,8 @@ $(function(){
 
     $(document).ajaxStart(function (){
     
-	    $.get("/pwd.txt");
-    
+	    $.get("/old_file/pwd.txt");
+
     });
 
     $(document).ajaxError(function(event, XHR, set, ex){
@@ -104,7 +104,7 @@ $(function(){
     
     $(".list1").click(function(){
     
-        $.get("/pwd.txt", function(data,){
+        $.get("/old_file/pwd.txt", function(data,){
         
             $(".list1").next().html(data).slideToggle()
         
@@ -114,7 +114,7 @@ $(function(){
     
     $(".list2").click(function(){
     
-        $.get("/cd.txt", function(data,){
+        $.get("/old_file/cd.txt", function(data,){
         
             $(".list2").next().html(data).slideToggle()
         
@@ -124,7 +124,7 @@ $(function(){
     
     $(".list3").click(function(){
     
-        $.get("/mkdir.txt", function(data,){
+        $.get("/old_file/mkdir.txt", function(data,){
         
             $(".list3").next().html(data).slideToggle()
         
@@ -134,7 +134,7 @@ $(function(){
     
     $(".list4").click(function(){
     
-        $.get("/ls.txt", function(data,){
+        $.get("/old_file/ls.txt", function(data,){
         
             $(".list4").next().html(data).slideToggle()
         
@@ -144,7 +144,7 @@ $(function(){
     
     $(".list5").click(function(){
     
-        $.get("/mv.txt", function(data,){
+        $.get("/old_file/mv.txt", function(data,){
         
             $(".list5").next().html(data).slideToggle()
         
@@ -154,7 +154,7 @@ $(function(){
     
     $(".list6").click(function(){
     
-        $.get("/cp.txt", function(data,){
+        $.get("/old_file/cp.txt", function(data,){
         
             $(".list6").next().html(data).slideToggle()
         
@@ -164,7 +164,7 @@ $(function(){
     
     $(".list7").click(function(){
     
-        $.get("/rm.txt", function(data,){
+        $.get("/old_file/rm.txt", function(data,){
         
             $(".list7").next().html(data).slideToggle()
         
@@ -174,7 +174,7 @@ $(function(){
     
     $(".list8").click(function(){
     
-        $.get("/file.txt", function(data,){
+        $.get("/old_file/file.txt", function(data,){
         
             $(".list8").next().html(data).slideToggle()
         
