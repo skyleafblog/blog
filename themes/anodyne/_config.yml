@@ -1,5 +1,5 @@
 # Logo
-logo_image_source: https://f.easyuploader.app/eu-prd/upload/20200823141906_6e3067793936347a667a.png
+logo_image_source: /img/logo.png
 
 # Index Page
 index_banner_text: SkyleafBlog
@@ -26,7 +26,7 @@ archive_font_awesome_icon_css: fa-leaf
 # About Widget
 # about_widget_avatar_url: https://f.easyuploader.app/eu-prd/upload/20200823142003_68614e5a366a59724561.jpg
 # about_widget_avatar_url: https://f.easyuploader.app/eu-prd/upload/20200823141906_6e3067793936347a667a.png
-about_widget_avatar_url: https://f.easyuploader.app/eu-prd/upload/20210115233150_6b7462435276386259684f4434536e4d.png
+about_widget_avatar_url: /img/SKY1.png
 
 about_widget_text: ""
 
